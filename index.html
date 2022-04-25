@@ -6,10 +6,10 @@
   </head>
   <body>
     <script type="module">
-      import init, { distance } from "./pkg/fuzzy_wasm.js";
+      import init, { jenson_shannon_vector } from "./pkg/fuzzy_wasm.js";
       init()
         .then(() => {
-          alert(distance("Rupe", "Rupert"))
+          alert(jenson_shannon_vector("Rupe", "Rupert"))
         });
     </script>
   </body>
