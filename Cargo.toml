@@ -1,10 +1,10 @@
 [package]
-name = "fuzzy-wasm"
+name = "fuzzy-rust"
 version = "0.1.0"
 authors = ["Rupert Carr <rupert@oneslipstream.com>"]
 description = "A sample project with wasm-pack"
 license = "MIT/Apache-2.0"
-repository = "https://github.com/rupert648/fuzzy-wasm"
+repository = "https://github.com/rupert648/fuzzy-rust"
 edition = "2018"
 
 [lib]

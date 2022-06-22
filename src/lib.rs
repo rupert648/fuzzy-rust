@@ -3,6 +3,8 @@
 //! This crate contains "JS functions" for neon, allowing the user to perform several varying string comparison algorithms of varying complexity
 
 // imports
+use wasm_bindgen::prelude::*;
+
 use crate::string_matchers::{
     damerau_levenshtein,
     hamming,
@@ -15,8 +17,6 @@ use crate::string_matchers::{
 };
 
 mod string_matchers;
-
-use wasm_bindgen::prelude::*;
 
 /// Given two strings, will comppute the hamming distance between them
 /// 
